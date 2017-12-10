@@ -1,5 +1,5 @@
 # 環境構築
-[Local by Flywheel][https://local.getflywheel.com/]をダウンロード  
+[Local by Flywheel](https://local.getflywheel.com/)をダウンロード  
 いい感じにwordpressのサイトを作る
 
 ```
