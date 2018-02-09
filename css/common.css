@@ -1,0 +1,402 @@
+/* ==================================================
+reaet css
+====================================================*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/ change colours to suit your needs /
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/ change colours to suit your needs /
+mark {
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+hr {
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.longString {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.only_sp {
+  display: none;
+}
+
+/* ==================================================
+parts
+====================================================*/
+
+
+.about-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: 2px solid #992814;
+  line-height: 1;
+  color: #992814;
+  font-size: 18px;
+}
+
+.about-btn:hover {
+  background-color: #992814;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.inlineFlexWrapper {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.h1-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-feature-settings: "palt";
+  font-size: 50px;
+  font-weight: 500;
+  color: #330d07;
+  font-family: "HG 教科書体", "kyoukashotai", "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.serif {
+  font-family: YuMincho, '游明朝', serif;
+}
+
+.h1-title.underbar {
+  font-size: 36px;
+}
+
+.h1-title.underbar::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #992814;
+  display: block;
+  margin: 20px auto 0;
+}
+
+/* ==================================================
+header
+====================================================*/
+
+header {
+  width: 100%;
+  background-color: #330d07 !important;
+  opacity: .9;
+  z-index: 10000;
+}
+
+header h1 a,
+header nav {
+  color: #ddd;
+}
+
+header h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+header li {
+  float: left;
+}
+
+header .nav_link {
+  color: #ddd;
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 10px;
+  transition-duration: .2s;
+}
+
+/* ==================================================
+footer
+====================================================*/
+
+
+footer {
+  background-color: #330d07;
+  color: #f6f6f6;
+  line-height: 1.8;
+}
+
+footer a {
+  color: #f6f6f6;
+  line-height: 1.8;
+}
+
+footer h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-bottom:10px;
+}
+
+footer p {
+  line-height: 1.8;
+}
+
+footer svg {
+  color: #f6f6f6;
+}
+
+footer .copyRight {
+  font-size: 12px;
+  color: #ccc;
+  padding-bottom: 30px;
+}
+
+/* ==================================================
+index
+====================================================*/
+
+.news .content li {
+  position: relative;
+  border-bottom: 1px dashed #b4bfe0;
+}
+
+.news .content a {
+  transition-duration: .15s;
+}
+
+.news .content li a:hover {
+  color: #ccc;
+}
+
+.news .content li .tag,
+.news .content li .detail {
+  line-height: 1.8;
+}
+
+#curse li {
+  width: 315px;
+  height: 210px;
+  margin-right: 20px;
+}
+
+#curse li:last-child {
+  margin-right: 0;
+}
+
+#curse .innerWrapper {
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+#curse .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  line-height: 1;
+  overflow: hidden;
+}
+
+#curse img {
+  width: 100%;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#curse .overRay {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#curse .box,
+#curse .boxInner {
+  width: 100%;
+  height: 100%;
+}
+
+#curse .inner {
+  position: relative;
+  display: table;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#curse .text {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 65px;
+}
+
+#menuePerViwer .shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  background-color: #fff;
+}
+
+#menuePerViwer h2 {
+  text-align: center;
+  height: 48px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 48px;
+  font-weight: 400;
+  opacity: .8;
+}
+
+#menuePerViwer h2.first {
+  background-color: #FF5722;
+}
+#menuePerViwer h2.second {
+  background-color: #8BC34A;
+}
+#menuePerViwer h2.third {
+  background-color: #2196F3;
+}
+
+#menuePerViwer ul {
+  padding: 10px 0;
+}
+
+#menuePerViwer a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+#menuePerViwer a:hover {
+  color: #ccc;
+}
+
+.test {
+  height: 100px;
+  line-height: 100px;
+  font-size: 60px;
+  text-align: center;
+  display: block;
+}

@@ -1,0 +1,50 @@
+.container {
+  width: 1100px;
+}
+
+.newsContainer {
+  padding-top: 130px;
+}
+
+.news .paginationUl {
+  width: 120px;
+  margin-top: 30px;
+}
+
+.pagenation {
+  margin-top: 30px;
+}
+
+.paginationUl a {
+  padding: 0 5px;
+}
+
+.leftContent {
+  float: left;
+}
+
+.rightContent {
+  float: right;
+}
+
+.archive {
+  width: 250px;
+}
+
+.archive h2 {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.archive li {
+  margin: 15px;
+}
+
+.newsContainer a {
+  transition-duration: .15s;
+}
+
+.newsContainer a:hover {
+  color: #ccc;
+}

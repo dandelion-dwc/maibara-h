@@ -1,0 +1,351 @@
+/* ==================================================
+全体の設定
+====================================================*/
+.container {
+  width: 90%;
+  margin: 0 5%;
+}
+
+section {
+  padding: 90px 0;
+}
+
+body {
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+svg {
+  color: #666;
+}
+
+.blockFlex {
+  display: block;
+}
+
+.h1-title.underbar {
+  font-size: 80px;
+}
+
+.h1-title.underbar::after {
+  width: 100px;
+  content: "";
+  height: 4px;
+  background-color: #992814;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.about-btn {
+  margin-top: 60px;
+  padding: 30px 60px;
+  border: 2px solid #992814;
+  line-height: 1;
+  color: #992814;
+  font-size: 46px;
+}
+
+.only_sp {
+  display: inline;
+}
+
+.only_pc {
+  display: none;
+}
+
+/* ==================================================
+header
+====================================================*/
+header {
+  padding: 20px 0;
+  position: fixed;
+  z-index: 10;
+}
+
+header h1 {
+  float: left;
+}
+
+header p {
+  padding-top: 18px;
+  float: right;
+}
+
+header p svg {
+  color: #ddd;
+}
+
+header h1 a {
+  font-size: 80px;
+  height: 120px;
+  line-height: 120px;
+  display: inline-block;
+}
+header li {
+  width: 33%;
+  text-align: center;
+}
+
+/*header li:nth-child(3n+1),
+header li:nth-child(3n+2) {
+  border-right: 1px solid #aaa;
+}
+
+header li:nth-child(1),
+header li:nth-child(2),
+header li:nth-child(3) {
+  border-bottom: 1px solid #888;
+}
+
+header .nav_link {
+  font-size: 28px;
+}*/
+/* ==================================================
+footer
+====================================================*/
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .schoolInfo {
+  padding: 60px 0;
+}
+
+footer h2 {
+  font-size: 40px;
+}
+
+footer .sitemap {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  line-height: 1.6;
+}
+
+footer p {
+  font-size: 24px;
+}
+
+footer .copyRight p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+
+/* ==================================================
+index.html
+====================================================*/
+.mainPic {
+  overflow: hidden;
+  padding-top: 160px;
+}
+
+.mainPic img {
+  width: 160%;
+  margin-left: -20%;
+}
+
+#menuePerViwer h2 {
+  height: 100px;
+  font-size: 55px;
+  line-height: 100px;
+  padding: 0;
+}
+
+#menuePerViwer .shadow {
+  width: 80%;
+  margin: 10%;
+  margin-bottom: 30px;
+}
+
+#menuePerViwer a {
+  height: 100px;
+  line-height: 100px;
+  font-size: 40px;
+  padding: 0 10%;
+  text-align: center;
+}
+
+#about {
+  /*margin-top: 30px;*/
+  /*background-color: #fff;*/
+  padding-bottom: 90px;
+}
+
+#about p {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+#about {
+  width: 100%;
+  overflow: hidden;
+}
+
+#abput .imgWrapper {
+  width: 100%;
+}
+
+#about img {
+  width: 100%;
+}
+
+#about .h1-title {
+  font-size: 90px;
+  margin-top: 90px;
+}
+
+.news {
+  background-color: #fcfcfc;
+}
+
+/*.news .container {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  background-color: #fff;
+  padding: 60px 0;
+  width: 100%;
+}*/
+
+.news .content {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.news .content li {
+  padding: 10px 20px;
+  border-bottom: 2px dashed #b4bfe0;
+}
+
+.news .content li .tag {
+  width: 100%;
+}
+
+.news .content li .detail {
+  width: 100%;
+  /*font-size: 24px;*/
+}
+
+.news .content li .tag,
+.news .content li .detail {
+  /*height: 80px;*/
+  padding: 5px 0;
+}
+
+.news .content li .tag {
+  margin-top: 7px;
+  font-size: 26px;
+}
+
+.news .content li .tag span.tag_content {
+  background-color: #333;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  width: 180px;
+  border-radius: 3px;
+  display: inline-block;
+  color: #f7f7f7;
+}
+
+.news .content li .tag span.only_sp {
+  margin-left: 10px;
+}
+
+.news .content li .detail p {
+  font-size: 40px;
+}
+
+#curse {
+  position: relative;
+  background-color: #fff;
+  z-index: 0;
+  /*下二つコメントインで背景全体がグレーに*/
+}
+
+#curse li {
+  margin-bottom: 60px;
+  width: 100%;
+  height: 550px;
+}
+
+#curse li:last-child {
+  margin-bottom: 0;
+}
+
+#curse .text {
+  padding-bottom: 1px;
+  border-bottom: 1px solid #fff;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  margin-top: 215px;
+}
+
+#access {
+  background-color: #fff;
+}
+
+#access .accessInfo {
+  /*height: 300px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#access .map {
+  width: 100%;
+}
+
+#access .address {
+
+}
+
+#access table {
+  width: 100%;
+  /*margin: 0 5%;*/
+}
+
+#access tr {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+#access th,
+#access td {
+  padding: 15px 0;
+  font-size: 36px;
+  line-height: 1.6;
+}
+
+#access th {
+  padding-right: 20px;
+  width: 25%;
+}
+
+.map {
+ position: relative;
+ padding-bottom: 56.25%;
+ padding-top: 30px;
+ height: 0;
+ overflow: hidden;
+}
+
+.map iframe,
+.map object,
+.map embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+
+#access iframe {
+  /*height: 900px;*/
+}

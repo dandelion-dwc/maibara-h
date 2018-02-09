@@ -1,0 +1,33 @@
+@import url(pc_news.css) screen and (min-width: 1000px);
+@import url(sp_news.css) screen and (max-width: 999px);
+
+.news {
+  background-color: inherit;
+}
+
+.news .paginationUl {
+  margin: 0 auto;
+}
+
+.pagenation {
+  width: 100%;
+}
+
+.paginationUl li {
+  float: left;
+}
+
+.archive h2 {
+  font-weight: 400;
+  color: #f7f7f7;
+  background-color: #330d07;
+  opacity: .9;
+}
+
+.newsContainer a {
+  transition-duration: .15s;
+}
+
+.newsContainer a:hover {
+  color: #ccc;
+}

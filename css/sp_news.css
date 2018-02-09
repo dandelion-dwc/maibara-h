@@ -1,0 +1,66 @@
+@import url(pc_news.css) screen and (min-width: 1000px);
+@import url(sp_news.css) screen and (max-width: 999px);
+
+.newsContainer {
+  padding-top: 250px;
+}
+.news {
+  background-color: inherit;
+}
+
+.newsContainer .container {
+  width: 100%;
+  margin: 0;
+}
+
+.news .paginationUl {
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.pagenation {
+  width: 100%;
+}
+
+.paginationUl li {
+  float: left;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.rightContent {
+  margin-top: 90px;
+}
+
+.archive ul {
+  padding: 30px 0;
+}
+
+.archive h2 {
+  font-weight: 400;
+  color: #f7f7f7;
+  background-color: #330d07;
+  opacity: .9;
+  font-size: 60px;
+  height: 120px;
+  line-height: 120px;
+  padding-left: 5%;
+}
+
+.archive ul {
+  padding-left: 5%;
+}
+
+.archive li {
+  font-size: 50px;
+  line-height: 100px;
+}
+
+.newsContainer a {
+  transition-duration: .15s;
+}
+
+.newsContainer a:hover {
+  color: #ccc;
+}

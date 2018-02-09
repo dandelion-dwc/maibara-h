@@ -1,0 +1,5 @@
+@import url(common.css);
+@import url(modal/modal.css) screen and (max-width: 999px);
+@import url(modal/styles.css) screen and (max-width: 999px);
+@import url(pc_style.css) screen and (min-width: 1000px);
+@import url(sp_style.css) screen and (max-width: 999px);

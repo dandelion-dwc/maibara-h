@@ -1,0 +1,66 @@
+@import url(pc_article.css) screen and (min-width: 1000px);
+@import url(sp_article.css) screen and (max-width: 999px);
+
+.articleWrapper .imgZone {
+  position: relative;
+  overflow: hidden;
+}
+
+.articleWrapper .imgZone h1 {
+  position: absolute;
+  bottom: 0;
+  font-weight: 400;
+  color: #fff;
+}
+
+.articleWrapper .imgZone .overRay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+}
+
+.articleWrapper .titleZone h1 {
+  font-weight: 400;
+}
+.articleWrapper .titleZone .addInfo {
+}
+
+.articleWrapper .titleZone span {
+  display: inline-block;
+}
+
+.articleWrapper .contentZone h3 {
+  border-bottom: 1px solid #ccc;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.articleWrapper .contentZone h3 a {
+  display: inline-block;
+}
+
+.articleWrapper .contentZone h2:first-child {
+  margin-top: 0;
+}
+
+.articleWrapper .contentZone a {
+  transition-duration: .15s;
+}
+
+.articleWrapper .contentZone a:hover {
+  color: #ccc;
+}
+
+
+.articleWrapper .contentZone p {
+}
+
+.articleWrapper .contentZone p a {
+  text-decoration: underline;
+  color: #999;
+}
+
+.articleWrapper .contentZone li {
+  list-style: initial;
+}
