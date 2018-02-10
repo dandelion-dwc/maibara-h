@@ -18,18 +18,11 @@
   <body>
     <header>
       <div class="container cf">
-        <h1 class="serif"><a href="index.html">米原高校</a></h1>
+        <h1 class="serif"><a href="<?php echo esc_url(get_home_url()); ?>">米原高校</a></h1>
         <p class="only_sp">
           <label for="modal-trigger-full"><i class="fas fa-bars fa-5x"></i>  </label></p>
          <nav class="only_pc">
-           <ul class="cf">
-             <li><a href="news.html" class="nav_link">新着情報</a></li>
-             <li><a href="about.html" class="nav_link">学校概要</a></li>
-             <li><a href="study.html" class="nav_link">本校の教育</a></li>
-             <li><a href="school_days.html" class="nav_link">学校生活</a></li>
-             <li><a href="test.html" class="nav_link">中学生のみなさまへ</a></li>
-             <li><a href="obog.html" class="nav_link">同窓会</a></li>
-           </ul>
+           <?php wp_nav_menu( array('menu' => 'ヘッダー' )); ?>
          </nav>
       </div>
     </header>
@@ -40,15 +33,8 @@
         <label for="modal-trigger-full" class="o-close"></label>
         <div class="modal-wrap full">
           <label for="modal-trigger-full" class="close"><i class="fas fa-times fa-2x"></i></label>
-          <ul class="grobal-menue">
-            <li><a href="news.html" class="nav_link">新着情報</a></li>
-            <li><a href="about.html" class="nav_link">学校概要</a></li>
-            <li><a href="study.html" class="nav_link">本校の教育</a></li>
-            <li><a href="school_days.html" class="nav_link">学校生活</a></li>
-            <li><a href="test.html" class="nav_link">中学生のみなさまへ</a></li>
-            <li><a href="obog.html" class="nav_link">同窓会</a></li>
-            <li><label for="modal-trigger-full" class="custom-close">閉じる</label></li>
-          </ul>
+          <?php wp_nav_menu( array('menu' => 'ヘッダー', 'menu_class' => 'grobal-menue' )); ?>
+          <li><label for="modal-trigger-full" class="custom-close">閉じる</label></li>
         </div>
       </div>
     </div>

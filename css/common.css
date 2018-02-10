@@ -208,7 +208,7 @@ header li {
   float: left;
 }
 
-header .nav_link {
+header a {
   color: #ddd;
   display: inline-block;
   position: relative;

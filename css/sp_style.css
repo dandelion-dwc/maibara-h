@@ -97,7 +97,7 @@ header li:nth-child(3) {
   border-bottom: 1px solid #888;
 }
 
-header .nav_link {
+header a {
   font-size: 28px;
 }*/
 /* ==================================================

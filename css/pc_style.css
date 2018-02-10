@@ -17,6 +17,7 @@ body {
 
 svg {
   color: #666;
+  transition-duration: .15s;
 }
 
 .blockFlex {
@@ -64,7 +65,7 @@ header li {
   float: left;
 }
 
-header .nav_link {
+header a {
   color: #ddd;
   display: inline-block;
   position: relative;
@@ -74,7 +75,7 @@ header .nav_link {
   transition-duration: .2s;
 }
 
-header .nav_link:hover {
+header a:hover {
   background-color: #661a0e;
   cursor: pointer;
 }
@@ -130,6 +131,9 @@ footer .header-li {
   font-size: 14px;
 }
 
+footer .copyRight p:first-child {
+  float: right;
+}
 
 /* ==================================================
 index.html
@@ -268,7 +272,8 @@ index.html
   padding: 0px 10px;
 }
 
-.news .content li a:hover {
+.news .content li a:hover svg {
+  color: #ccc;
 }
 
 .news .content li .tag {
