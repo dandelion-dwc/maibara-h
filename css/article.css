@@ -33,7 +33,6 @@
 .articleWrapper .contentZone h3 {
   border-bottom: 1px solid #ccc;
   font-weight: 400;
-  display: inline-block;
 }
 
 .articleWrapper .contentZone h3 a {
@@ -63,4 +62,8 @@
 
 .articleWrapper .contentZone li {
   list-style: initial;
+}
+
+.articleWrapper .contentZone table td {
+  line-height: 1.6;
 }

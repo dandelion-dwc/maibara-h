@@ -28,6 +28,7 @@
       $navi = ($slug[1] == '') ? 'home' : $slug[1];
       $page = wc_get_page_by_slug($navi);
       $page_name = $page->post_title
+      // slugに紐づくメニューを管理画面から作ってるのまずいかも
       ?>
       <div class="archive">
         <h2><?php echo $page_name ?></h2>

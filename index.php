@@ -45,7 +45,7 @@
         <?php endwhile; endif; ?>
       </ul>
       <div class="inlineFlexWrapper">
-        <a href="news.html" class="about-btn">さらに見る</a>
+        <a href="<?php echo esc_url(get_home_url()).'/info' ?>" class="about-btn">さらに見る</a>
       </div>
     </section>
 
@@ -56,10 +56,7 @@
           <div class="shadow">
             <h2 class="first">中学生のみなさまへ</h2>
             <ul>
-              <li class="childli"><a href="#">中学生のみなさまへ</a></li>
-              <li class="childli"><a href="about.html">学校概要</a></li>
-              <li class="child-li"><a href="#">本校の教育</a></li>
-              <li class="child-li"><a href="#">学校生活</a></li>
+              <?php wp_nav_menu( array('menu' => 'for-junior' )); ?>
             </ul>
           </div>
           <div class="shadow">
@@ -99,7 +96,7 @@
             生徒・保護者の期待に応える教育を目指しています。
           </p>
           <div class="inlineFlexWrapper">
-            <a href="about.html" class="about-btn">学校概要</a>
+            <a href="<?php echo esc_url(get_home_url()).'/about' ?>" class="about-btn">学校概要</a>
           </div>
         </div>
       </div>
@@ -110,7 +107,7 @@
         <h1 class="h1-title underbar">コース</h1>
         <ul class="cf blockFlex">
           <li>
-            <a href="normal.html">
+            <a href="<?php echo esc_url(get_home_url()).'/education/normal-course' ?>">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
@@ -127,7 +124,7 @@
             </a>
           </li>
           <li>
-            <a href="english.html">
+            <a href="<?php echo esc_url(get_home_url()).'/education/english-course' ?>">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
@@ -144,7 +141,7 @@
             </a>
           </li>
           <li>
-            <a href="risuka.html">
+            <a href="<?php echo esc_url(get_home_url()).'/education/science-course' ?>">
               <div class="innerWrapper">
                 <div class="img">
                   <div>
