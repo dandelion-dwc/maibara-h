@@ -5,27 +5,21 @@
               <h3>訪問者別メニュー</h3>
               <ul class="parent-ul cf">
                 <li class="parent-li">
-                  <h4><a href="#">中学生の皆様</a></h4>
+                  <h4>中学生の皆様</h4>
                   <ul class="child-ul">
-                    <li class="child-li"><a href="#">中学生のみなさまへ</a></li>
-                    <li class="child-li"><a href="#">学校概要</a></li>
-                    <li class="child-li"><a href="#">本校の教育</a></li>
-                    <li class="child-li"><a href="#">学校生活</a></li>
+                    <?php wp_nav_menu( array('menu' => '中学生のみなさまへ' )); ?>
                   </ul>
                 </li>
                 <li class="parent-li">
-                  <h4><a href="#">一般・卒業生の皆様</a></h4>
+                  <h4>一般・卒業生の皆様</h4>
                   <ul class="child-ul">
-                    <li class="child-li"><a href="#">各種証明書について</a></li>
-                    <li class="child-li"><a href="#">転・編入学情報</a></li>
+                    <?php wp_nav_menu( array('menu' => '在校生・保護者の皆様' )); ?>
                   </ul>
                 </li>
                 <li class="parent-li">
-                  <h4><a href="#">在校生・保護者の皆様</a></h4>
+                  <h4>在校生・保護者の皆様</h4>
                   <ul class="child-ul">
-                    <li class="child-li"><a href="#">感染病（伝染病）の出席停止</a></li>
-                    <li class="child-li"><a href="#">特別警報・暴風警報の発令時</a></li>
-                    <li class="child-li"><a href="#">奨学金のご案内</a></li>
+                    <?php wp_nav_menu( array('menu' => '一般・卒業生の皆様' )); ?>
                   </ul>
                 </li>
               </ul>

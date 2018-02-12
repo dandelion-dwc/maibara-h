@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>米原高校</title>
     <!-- Compiled and minified CSS -->
      <?php
         wp_enqueue_style(
@@ -13,6 +12,9 @@
           'all'
         );
      ?>
+     <meta name=”viewport” content=”initial-scale=1.0, user-scalable=yes” />
+
+     <script type=”text/javascript” src=”http://maps.google.com/maps/api/js?sensor=true“></script>
      <?php wp_head(); ?>
   </head>
   <body>

@@ -158,10 +158,10 @@ parts
 
 .h1-title {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-feature-settings: "palt";
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 56px;
+  font-weight: 900;
   color: #330d07;
   font-family: "HG 教科書体", "kyoukashotai", "ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 }
@@ -171,7 +171,7 @@ parts
 }
 
 .h1-title.underbar {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .h1-title.underbar::after {

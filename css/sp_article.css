@@ -13,8 +13,7 @@
 }
 
 .articleWrapper .imgZone img {
-  height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .articleWrapper .imgZone h1 {
@@ -27,6 +26,7 @@
 .articleWrapper .imgZone .overRay {
   height: 150px;
   line-height: 150px;
+  bottom: 3px !important;
 }
 
 .articleWrapper .titleZone {
@@ -113,4 +113,8 @@
   border: 2px solid #aaa;
   border-collapse: collapse;
   padding: 15px;
+}
+
+.articleWrapper .contentZone table td p {
+  margin: 0;
 }

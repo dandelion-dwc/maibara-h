@@ -1,9 +1,9 @@
 <?php get_header(); ?>
     <div class="mainPic">
-      <img src="<?php echo esc_url(get_template_directory_uri()).'/image/main_pic.jpg' ?>" alt="メイン画像">
+      <?php echo do_shortcode('[metaslider id="118"]'); ?>
     </div>
 
-    <section class="news">
+    <section class="news bg_white">
       <h1 class="h1-title underbar">新着情報</h1>
       <ul class="content">
         <?php
@@ -56,22 +56,19 @@
           <div class="shadow">
             <h2 class="first">中学生のみなさまへ</h2>
             <ul>
-              <?php wp_nav_menu( array('menu' => 'for-junior' )); ?>
+              <?php wp_nav_menu( array('menu' => '中学生のみなさまへ' )); ?>
             </ul>
           </div>
           <div class="shadow">
             <h2 class="second">在校生・保護者の皆様</h2>
             <ul>
-              <li class="child-li"><a href="#">感染病（伝染病）の出席停止</a></li>
-              <li class="child-li"><a href="#">特別警報・暴風警報の発令時</a></li>
-              <li class="child-li"><a href="#">奨学金のご案内</a></li>
+              <?php wp_nav_menu( array('menu' => '在校生・保護者の皆様' )); ?>
             </ul>
           </div>
           <div class="shadow">
             <h2 class="third">一般・卒業生の皆様</h2>
             <ul>
-              <li class="child-li"><a href="#">各種証明書について</a></li>
-              <li class="child-li"><a href="#">転・編入学情報</a></li>
+              <?php wp_nav_menu( array('menu' => '一般・卒業生の皆様' )); ?>
             </ul>
           </div>
         </div>

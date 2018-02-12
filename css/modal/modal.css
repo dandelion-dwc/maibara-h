@@ -103,7 +103,7 @@ Github: http://github.com/jorgechavz
 .modal input:checked ~ .modal-overlay{
   transform: scale(1);
   opacity:1;
-  z-index: 9997;
+  z-index: 99997;
   overflow: auto;
   display: flex;
   animation-duration: 0.5s;
@@ -115,7 +115,7 @@ Github: http://github.com/jorgechavz
 }
 .modal input:checked ~ .modal-overlay .modal-wrap {
   transform: translateY(0);
-  z-index: 9999;
+  z-index: 99999;
 }
 
 /* Responsive Design */

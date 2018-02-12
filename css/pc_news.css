@@ -37,14 +37,20 @@
   padding: 0 10px;
 }
 
-.archive li {
-  margin: 15px;
+.archive ul {
+  margin: 10px;
 }
 
-.newsContainer a {
+.archive li a {
+  margin: 7px 0;
+  line-height: 1.6;
+  display: inline-block;
+}
+
+.rightContent a {
   transition-duration: .15s;
 }
 
-.newsContainer a:hover {
+.rightContent a:hover {
   color: #ccc;
 }

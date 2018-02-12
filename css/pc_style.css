@@ -12,7 +12,7 @@ section {
 
 body {
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 
 svg {
@@ -122,12 +122,7 @@ footer .child-ul {
   margin-left: 10px;
 }
 
-footer .child-li {
-  font-size: 14px;
-}
-
-footer .header-li {
-  font-weight: bold;
+footer .child-ul li {
   font-size: 14px;
 }
 
@@ -148,8 +143,7 @@ index.html
 }
 
 #about {
-  margin-top: 30px;
-  /*background-color: #fff;*/
+  background-color: #f5f5f5;
 }
 
 #about p {
@@ -224,13 +218,14 @@ index.html
 }
 
 #menuePerViwer {
-  /*background-color: #f7f7f7;*/
+  background-color: #f5f5f5;
+  padding-bottom: 90px;
 }
 
 #menuePerViwer .shadow {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
   width: 270px;
-  height: 212px;
+  height: 230px;
   background-color: #fff;
 }
 
@@ -246,6 +241,10 @@ index.html
 
 .news {
   background-color: #fcfcfc;
+}
+
+.news.bg_white {
+  background-color: #fff;
 }
 
 .news .content li .tag {

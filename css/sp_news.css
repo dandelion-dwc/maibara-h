@@ -42,19 +42,20 @@
   color: #f7f7f7;
   background-color: #330d07;
   opacity: .9;
-  font-size: 60px;
-  height: 120px;
-  line-height: 120px;
+  font-size: 46px;
+  height: 100px;
+  line-height: 100px;
   padding-left: 5%;
 }
 
 .archive ul {
-  padding-left: 5%;
+  padding: 20px 0;
+  padding-left: 7%;
 }
 
 .archive li {
-  font-size: 50px;
-  line-height: 100px;
+  font-size: 30px;
+  line-height: 70px;
 }
 
 .newsContainer a {

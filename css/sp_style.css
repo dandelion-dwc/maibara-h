@@ -53,6 +53,10 @@ svg {
   display: none;
 }
 
+.dp-google-map.dp-map-centered {
+  /*transform: scale(2.5) !important;*/
+}
+
 /* ==================================================
 header
 ====================================================*/
@@ -194,8 +198,8 @@ index.html
 }
 
 #about .h1-title {
-  font-size: 90px;
-  margin-top: 90px;
+  font-size: 120px;
+  margin: 90px 0;
 }
 
 .news {

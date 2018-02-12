@@ -67,3 +67,7 @@
 .articleWrapper .contentZone table td {
   line-height: 1.6;
 }
+
+.articleWrapper .contentZone table td p{
+  margin: 0;
+}
